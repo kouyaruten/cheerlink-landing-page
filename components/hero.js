@@ -58,7 +58,7 @@ export default function Example() {
                                 <span className="sr-only">Cheerlink</span>
                                 <img
                                     className="h-8 w-auto"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                    src="logo.png"
                                     alt=""
                                 />
                             </a>
@@ -121,7 +121,7 @@ export default function Example() {
                         </p>
                         <Waitlist />
                         <Image
-                            className='-mt-20'
+                            className=''
                             src="/hero.png"
                             alt="Cheerlink Hero Image"
                             width={800}
