@@ -111,11 +111,10 @@ export default function Example() {
                     </div>
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                            The only&nbsp;
+                            Your AI shop assistant that&nbsp;
                             <span className='text-transparent bg-clip-text bg-gradient-to-br from-red-200 to-pink-500'>
-                                "employee (AI)"<br />
+                                converts
                             </span>
-                            needed for your online store
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
                             Cheerlink helps you convert and delight your customers at ease.
