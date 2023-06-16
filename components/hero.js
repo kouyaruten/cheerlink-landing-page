@@ -8,6 +8,7 @@ import Waitlist from './waitlist'
 
 const navigation = [
     { name: 'Blog', href: '#' },
+    { name: 'Help Center', href: 'https://gowestorgohome.notion.site/Cheerlink-Help-Center-1b35e09cad46472fb83846498f346cad?pvs=4' },
 ]
 
 export default function Example() {
@@ -44,11 +45,10 @@ export default function Example() {
                             </a>
                         ))}
                     </div>
-                    {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Log in <span aria-hidden="true">&rarr;</span>
-                        </a>
-                    </div> */}
+                    <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                        <button class="bg-gradient-to-br from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 px-6 py-2 rounded-md text-white text-sm font-semibold">Sign up</button>
+                        <button class="bg-white stroke-pink-500 px-6 py-2 rounded-md text-pink-500 hover:text-pink-600 font-semibold">Log in</button>
+                    </div>
                 </nav>
                 <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-50" />
@@ -83,6 +83,11 @@ export default function Example() {
                                             {item.name}
                                         </a>
                                     ))}
+                                </div>
+                                <div className="py-6">
+                                    <button class="bg-gradient-to-br from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600 px-6 py-2 rounded-md text-white text-sm font-semibold">Sign up</button>
+                                    <button class="bg-white stroke-pink-500 px-6 py-2 rounded-md text-pink-500 hover:text-pink-600 font-semibold">Log in</button>
+
                                 </div>
                             </div>
                         </div>
